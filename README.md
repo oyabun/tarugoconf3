@@ -17,6 +17,6 @@ Contiene distinta documentación e instrucciones:
 - Slides de información teórica
 
 
-Información adicional:
+Contacto:
 ----------------------
 Twitter: [@diana_aceves_](https://twitter.com/diana_aceves_)
