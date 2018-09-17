@@ -52,7 +52,6 @@ h3 {
 	}
 	&__wrapper {
 		@include wrapper(85%, rem(1200));
-		height: $header-height;
 
 		/*** PRÁCTICA STEP 1:
 		EL HEADER ES UN FLEXBOX PARA CENTRAR EN

@@ -56,7 +56,7 @@ var navigation = function (e) {
             animateScroll(anchor, 800);
         }
     }
-}
+};
 
 /************ EVENTS *************/
 
