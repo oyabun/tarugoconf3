@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../../dist/css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Biryani:700|Montserrat:400,500,600" rel="stylesheet">
+    <title>Tarugoconf3 - Frontend para tarugos back</title>
+</head>
+
+<body>
+    <header class="header--main">
+        <div class="header__wrapper">
+            <h1 class="logo">
+                <svg class="logo__icon" viewbox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#fff" fill-rule="nonzero">
+                        <path d="m38 12.74l-18-10.74-18 10.74v21.5l18 10.76 18-10.76v-21.5" />
+                        <g fill="#4d5364">
+                            <path d="m39 16.638l-.216.18-.098 4.977-10.823 6.636v13.709l-4.49 2.781-.079.62-.47-.281-2.824 1.74v-18.77-4l15.706-9.631h.019l2.585-1.599.533.999-.059 2.499.216.14" />
+                            <path d="M19.892 1 31 8.06 19.892 15 9 8.203 19.892 1z" />
+                            <path d="M1 35.393 1 22 12 28.548 12 42 1 35.393z" />
+                            <path d="m20 48l-20-11.99v-24.02l20-11.99 20 12.01v24l-20 11.99m18-34.815l-18-10.795-18 10.795v21.61l18 10.815 18-10.815v-21.61" />
+                        </g>
+                    </g>
+                </svg>
+                <span class="logo__text">Tarugoconf</span>
+            </h1>
+            <nav>
+                <button id="js-menu-button" type="button" class="menu__button">
+                    Menú
+                </button>
+                <ul id="js-menu" class="menu">
+                    <li class="menu__item"><a href="#intro">Inicio</a></li>
+                    <li class="menu__item"><a href="#talks">Charlas</a></li>
+                    <li class="menu__item"><a href="#sponsors">Sponsors</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section id="intro" class="section intro">
+            <div class="section__wrapper">
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 511.997 511.997"
+                    enable-background="new 0 0 511.997 511.997">
+                    <circle cx="256" cy="256" r="256" fill="#3F9FC9" />
+                    <path d="m136.7.133c-73.849 1.581-134.29 61.37-136.63 135.2-1.16 36.678 11.82 70.31 33.897 95.86 9.943 11.506 12.781 27.539 7.666 41.859l-9.194 25.743c-2.99 8.373 6.707 15.53 13.827 10.205l32.609-24.388c9.703-7.257 22.02-9.956 33.912-7.614 12.379 2.439 25.341 3.245 38.672 2.143 70.14-5.804 125.45-63.808 127.97-134.14 2.889-80.55-62.43-146.59-142.73-144.87"
+                        fill="#FF777A" />
+                    <path d="m454.81 359.78c-11.828 14.273-15.579 33.562-9.352 51.01l4.42 12.382c-5.58 6.468-11.483 12.654-17.68 18.536l-27.46-20.511c-11.588-8.641-26.24-12.07-40.448-9.425-9.164 1.714-19.425 3.229-26.875 3.229-84.17 0-152.39-68.22-152.39-152.39-.01-84.08 68.29-152.39 152.39-152.39 84.16 0 152.39 68.22 152.39 152.39.002 36.926-13.14 70.791-34.992 97.16"
+                        fill="#FDC468" />
+                    <g fill="#FFFFFF">
+                        <path d="m358.93 346.91c0 11.53-9.843 21.654-21.373 21.654-12.375 0-21.655-10.124-21.655-21.654 0-11.813 9.281-21.655 21.655-21.655 11.531 0 21.373 9.843 21.373 21.655m-5.343-53.43c0 8.719-9.563 12.375-16.312 12.375-9 0-16.592-3.656-16.592-12.375 0-33.466-3.936-81.56-3.936-115.02 0-10.968 9-17.16 20.529-17.16 10.969 0 20.249 6.186 20.249 17.16-.002 33.467-3.938 81.56-3.938 115.02" />
+                        <path d="m163.75 134.42c-14.185 11.09-14.445 18.829-14.445 32.24 0 4.902-2.579 10.574-15.218 10.574-10.574 0-14.185-3.868-14.185-17.281 0-22.18 9.802-32.757 17.281-39.2 8.512-7.222 22.956-15.218 22.956-29.15 0-11.864-10.317-17.54-23.21-17.54-26.308 0-20.635 19.861-34.562 19.861-6.964 0-15.476-4.642-15.476-14.703 0-13.927 15.992-34.562 50.813-34.562 33.02 0 54.938 18.313 54.938 42.558s-21.923 41.786-28.888 47.2m-9.543 80.47c0 10.574-8.771 19.86-19.861 19.86-11.09 0-19.603-9.286-19.603-19.86 0-10.833 8.771-19.861 19.603-19.861s19.861 9.03 19.861 19.861" />
+                    </g>
+                </svg>
+
+                <h2>Qué carallo es esto</h2>
+                <p>El origen de la Tarugoconf es una simple pregunta: ¿Cómo sería el evento sobre diseño, construcción
+                    y
+                    comercialización de tecnología al que siempre nos hubiera gustado asistir.</p>
+                <p>Para tratar de encontrar la respuesta, intentamos cuidar cada detalle -desde las acreditaciones a la
+                    comida-
+                    para
+                    transformar la asistencia en una experiencia.</p>
+            </div>
+        </section>
+        <section id="talks" class="section talks">
+            <div class="section__wrapper">
+                <h2>Charlas</h2>
+                <div class="talks__container">
+                    <div class="talks__item">
+                        <div class="talks__icon icon-light">
+                            <img src="../../img/light.svg" alt="útiles">
+                        </div>
+                        <div class="talks__text">
+                            <h3>Útiles</h3>
+                            <p>Siempre se basan en retos reales... y las soluciones aplicadas para resolverlos, que
+                                podrás incorporar a tu "caja
+                                de herramientas" y aplicar en tu día a día.</p>
+                        </div>
+                    </div>
+                    <div class="talks__item">
+                        <div class="talks__icon icon-mouse">
+                            <img src="../../img/mouse.svg" alt="prácticas">
+                        </div>
+                        <div class="talks__text">
+                            <h3>Prácticas</h3>
+                            <p>Un ponente de la Tarugoconf no habla de lo que ha leído sino de lo que ha vivido.</p>
+                        </div>
+                    </div>
+                    <div class="talks__item">
+                        <div class="talks__icon icon-happy">
+                            <img src="../../img/happy.svg" alt="divertidas">
+                        </div>
+                        <div class="talks__text">
+                            <h3>Divertidas</h3>
+                            <p>Lo contrario de 'divertido' no es 'serio' sino 'aburrido' y lo único que está prohibido
+                                en la Tarugoconf es aburrirse.</p>
+                        </div>
+                    </div>
+                    <div class="talks__item">
+                        <div class="talks__icon icon-diamond">
+                            <img src="../../img/diamond.svg" alt="awesómicas">
+                        </div>
+                        <div class="talks__text">
+                            <h3>Awesómicas</h3>
+                            <p>Las charlas de la Tarugoconf se trabajan durante meses, para que duren unos pocos
+                                minutos y se recuerden durante años.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sponsors" class="section sponsors">
+            <div class="section__wrapper">
+                <h2>Sponsors</h2>
+                <p>La #tarugo3 no sería posible sin la colaboración de todos estos socios y amigos</p>
+                <div class="sponsors__grid">
+                    <div class="sponsors__item sponsor-1"></div>
+                    <div class="sponsors__item sponsor-2"></div>
+                    <div class="sponsors__item sponsor-3"></div>
+                    <div class="sponsors__item sponsor-4"></div>
+                    <div class="sponsors__item sponsor-5"></div>
+                    <div class="sponsors__item sponsor-6"></div>
+                    <div class="sponsors__item sponsor-7"></div>
+                    <div class="sponsors__item sponsor-8"></div>
+                    <div class="sponsors__item sponsor-9"></div>
+                    <div class="sponsors__item sponsor-10"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer--main">
+        @ 2018 Bonillaware.com
+    </footer>
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../dist/js/app.min.js"></script>
+</body>
+</html>
