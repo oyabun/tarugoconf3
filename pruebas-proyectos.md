@@ -29,20 +29,26 @@ Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que 
 
 	![Prueba bootstrap example](images/prueba-bootstrap-2.png)
 
+
+
+
 ## **Probando el entorno de la rama TARUGOCONF3-CRAFTER-WEB**
 Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
 
 1. 	**Ver si se activa todo lo anterior (git, minify, live server) Y ADEMÁS EL COMPILADOR DE SASS**
 
-	Tiene que salir en la barra de estado **"Watch Sass"** (1).
+	Tiene que salir en la barra de estado **"Watch Sass"**.
+	![Prueba web crafter](images/watch.png)
 
 2. 	**Poner en marcha el compilador Sass**
 
-	Arranco el compilador pulsando donde pone **“Watch Sass”** cambiará a **“Watching…”** y en consola nos dice que está escuchando.
+	Arranco el compilador pulsando donde pone **“Watch Sass”** cambiará a **“Watching…”** y en consola nos dice que está escuchando.(1)
 
 3. 	**Probar el compilador Sass**
 
-	Me voy a **steps/01/_site.scss** (2), lo abro, pongo arriba del todo cualquier cosa (ver captura), guardo, y **me aseguro que me está modificando styles.min.css dentro de dist/css/** (3)
+	Me voy a **steps/01/_site.scss** (2), lo abro, pongo arriba del todo cualquier cosa en css (3), guardo, y **me aseguro que me está modificando styles.min.css dentro de dist/css/** (4)
 
-4. 	**Borrad lo que acabáis de poner** para que no nos quede ahí para el taller.
+4. 	**BORRO el código que he puesto de prueba** para que no nos quede ahí para el taller.
+
+	![Prueba web crafter](images/prueba-web.png)
 
