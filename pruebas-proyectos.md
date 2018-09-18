@@ -23,9 +23,9 @@ Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que 
 
 2. 	**Probar minify**
 
-	Os metéis en el directorio **"css"**, abrís **"custom.css"**, cambiáis el color del background y **verificáis que os minifica el archivo (custom.min.css) en la misma carpeta**.
+	Os metéis en el directorio **"css"**, abrís **"custom.css"** (1), cambiáis el color del background (2) y **verificáis que os minifica el archivo (custom.min.css) (3) en la misma carpeta**.
 
-	Ambos archivos deberían aparecer como **"modificados"**.
+	Ambos archivos deberían aparecer como **"modificados"** (3).
 
 	![Prueba bootstrap example](images/prueba-bootstrap-2.png)
 
@@ -34,7 +34,7 @@ Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que 
 
 1. 	**Ver si se activa todo lo anterior (git, minify, live server) Y ADEMÁS EL COMPILADOR DE SASS**
 
-	Tiene que salir en la barra de estado **"Watch Sass"**.
+	Tiene que salir en la barra de estado **"Watch Sass"** (1).
 
 2. 	**Poner en marcha el compilador Sass**
 
@@ -42,7 +42,7 @@ Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que 
 
 3. 	**Probar el compilador Sass**
 
-	Me voy a **steps/01/_site.scss**, lo abro, pongo arriba del todo cualquier cosa (ver captura), guardo, y **me aseguro que me está modificando styles.min.css dentro de dist/css/**
+	Me voy a **steps/01/_site.scss** (2), lo abro, pongo arriba del todo cualquier cosa (ver captura), guardo, y **me aseguro que me está modificando styles.min.css dentro de dist/css/** (3)
 
 4. 	**Borrad lo que acabáis de poner** para que no nos quede ahí para el taller.
 
