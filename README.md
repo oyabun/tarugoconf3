@@ -14,7 +14,7 @@ Contiene todos los archivos del theme de Bootstrap (https://startbootstrap.com/t
 ### Rama tarugoconf3-docs
 Contiene distinta documentación e instrucciones:
 - Instrucciones de instalación del entorno de trabajo
-- Slides de información teórica
+- Slides de información teórica (después del taller)
 
 
 Contacto:
