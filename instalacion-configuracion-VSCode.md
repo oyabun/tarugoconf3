@@ -7,6 +7,10 @@ El link -> https://gist.github.com/dianaaceves/13c649c74cd66477ea2efdbe4ec741c9
 
 **Las extensiones SÍ QUE LAS NECESITAMOS** esas tenéis que instalarlas, porfi.
 
+Si no lo tenéis instalado, en cuanto lo abrís podéis elegir que os "copie" los settings y keybindings de vuestro editor favorito. (Mola!!!)
+
+![Settings otros editores](images/settings-editores.png)
+
 ### **Instrucciones:**
 1. 	**Descarga e instalación de VS Code:**
 	https://code.visualstudio.com/Download
