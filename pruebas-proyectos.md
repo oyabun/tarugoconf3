@@ -1,17 +1,20 @@
 ## **Probando el entorno de la rama TARUGOCONF3-BOOTSTRAP-EXAMPLE**
 Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
 
-1. 	**Ver si se activa el visor de git (1), el live server (2), y el minify (3)**, salen en la barra de estado.
+1. 	**Ver si se activa el visor de git (1), el minify (2), y el live server (3)**, salen en la barra de estado.
 
-	Pulsad en "Go Live" y debería abrirse el proyecto en el navegador.
+	Pulsad en "Go Live" (3) y debería abrirse el proyecto en el navegador.
 
 	(Nota: el servidor está configurado en el puerto 3001, si lo tenéis ocupado con otra cosa tenéis que cambiarlo en los user settings, si no sabéis, me lo decís).
 
 	No me sale, ¿qué hago?:
 
 	- Hay que darle un momento, en Windows a mí me tarda un poco, en Mac es casi inmediato al abrir el proyecto. (NO QUIERO DECIR NADA CON ESTO)
-	- Si no reconoce el repositorio, pinchad en la opción de git a ver si así espabila.
+	- Si no reconoce el repositorio, pinchad en el explorador de git (4) a ver si así espabila.
 	- Si no se activa el live server, poneos encima del index.html -> botón derecho -> "Open with live server".
+
+	![Prueba bootstrap example](images/prueba-bootstrap.png)
+
 
 	Si nada de esto funciona, haced algún plan para el jueves por la mañana y no vengáis al taller. :-P
 
@@ -21,7 +24,8 @@ Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que 
 2. 	**Probar minify**
 
 	Os metéis en el directorio **"css"**, abrís **"custom.css"**, cambiáis el color del background y **verificáis que os minifica el archivo (custom.min.css) en la misma carpeta**.
-	Ambos archivos deberían aparecer como "modificados"
+
+	Ambos archivos deberían aparecer como **"modificados"**.
 
 ## **Probando el entorno de la rama TARUGOCONF3-CRAFTER-WEB**
 Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
