@@ -27,6 +27,8 @@ Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que 
 
 	Ambos archivos deberían aparecer como **"modificados"**.
 
+	![Prueba bootstrap example](images/prueba-bootstrap-2.png)
+
 ## **Probando el entorno de la rama TARUGOCONF3-CRAFTER-WEB**
 Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
 
