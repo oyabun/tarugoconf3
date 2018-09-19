@@ -61,7 +61,6 @@ h3 {
 		***/
 		position: fixed;
 		width: 100%;
-		height: $header-height;
 		top: 0;
 		left: 0;
 		z-index: 1;
@@ -277,13 +276,13 @@ h3 {
 $colors: (#37394A, #EC841C, #004C67, #4BC2C4, #009DE0, #212121, #4F137C, #2A8EF7, #02497E, #0F159F);
 
 @for $i from 1 through 10 {
-	.sponsor-#{$i} {
+	.sponsors-#{$i} {
 		background-image: url("../../img/sponsors/logo-#{$i}.svg");
 		background-color: nth($colors, $i);
 	}
 }
 
-.sponsor-1 {
+.sponsors-1 {
 	background-size: 60% auto;
 }
 

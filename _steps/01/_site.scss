@@ -15,14 +15,6 @@ body {
 	background-color: white;
 	font-weight: $light;
 	color: $blue-dark;
-
-	/*** PRÁCTICA STEP 1:
-	FOOTER SIEMPRE ABAJO:
-	BODY -> DISPLAY FLEX
-			+FLEX COLUMN
-			+MIN-HEIGHT 100VH
-	MAIN -> FLEX-GROW:1
-	***/
 }
 
 h1,
@@ -55,25 +47,13 @@ h3 {
 	}
 	&__wrapper {
 		@include wrapper(85%, rem(1200));
-
-		/*** PRÁCTICA STEP 1:
-		EL HEADER ES UN FLEXBOX PARA CENTRAR EN
-		VERTICAL LOS ELEMENTOS Y DISTRIBUIRLOS
-		EN HORIZONTAL: LOGO AUN LADO, MENÚ BUTTON
-		AL OTRO LADO.
-		***/
-
+		height: $header-height;
 	}
 }
 
 .logo {
 	color: $blue-dark;
 	font-size: 1.1rem;
-
-	/*** PRÁCTICA STEP 1:
-	EL LOGO ES OTRO FLEXBOX PARA CENTRAR
-	EL NOMBRE Y EL ICONO EN VERTICAL
-	***/
 
 	&__icon {
 		height: rem(48);
@@ -87,55 +67,42 @@ h3 {
 }
 
 .menu {
-	// background: $blue;
-    // position: fixed;
-	// top: 4rem;
-	// left: 0;
-    // width: 100%;
-    // text-align: center;
-	// height: 100vh;
-	// padding-top: 3em;
-	// list-style: none;
+	background: $blue;
+    position: fixed;
+	top: 4rem;
+	left: 0;
+    width: 100%;
+    text-align: center;
+	height: 100vh;
+	padding-top: 3em;
+	list-style: none;
 
-	// transform: translateX(100%);
-	// transition: transform .6s;
-	// &.is-visible{
-	// 	transform: translateX(0)
-	// }
+	transform: translateX(100%);
+	transition: transform .6s;
+	&.is-visible{
+		transform: translateX(0)
+	}
 	&__button{
 		text-transform: uppercase;
 		font-weight: bold;
 		padding: 1em;
-
-		/*** PRÁCTICA STEP 1:
-		MOVEMOS EL BOTÓN PARA QUE ESTÉ
-		VISUALMENTE ALINEADO
-		***/
-
 	}
-	// &__item {
-	// 	font-size: 1.2em;
-	// }
-	// a {
-	// 	// - Los links los pongo como "block" para que puedan tener padding vertical y así
-	// 	//	 aumentar la zona activa del enlace.
-	// 	// - Además, el padding se lo doy al enlace, en vez de a los "li" por eso mismo.
-	// 	display: block;
-	// 	padding: 1.5em 0;
-	// 	color: white;
-	// 	letter-spacing: .05em;
-	// }
+	&__item {
+		font-size: 1.2em;
+	}
+	a {
+		// - Los links los pongo como "block" para que puedan tener padding vertical y así
+		//	 aumentar la zona activa del enlace.
+		// - Además, el padding se lo doy al enlace, en vez de a los "li" por eso mismo.
+		display: block;
+		padding: 1.5em 0;
+		color: white;
+		letter-spacing: .05em;
+	}
 }
 
 //SECTIONS
 .main {
-	/*** PRÁCTICA STEP 1:
-	FOOTER SIEMPRE ABAJO:
-	BODY -> DISPLAY FLEX
-			+FLEX COLUMN
-			+MIN-HEIGHT 100VH
-	MAIN -> FLEX-GROW:1
-	***/
 
 }
 
@@ -240,13 +207,13 @@ h3 {
 // $colors: (#37394A, #EC841C, #004C67, #4BC2C4, #009DE0, #212121, #4F137C, #2A8EF7, #02497E, #0F159F);
 
 // @for $i from 1 through 10 {
-// 	.sponsor-#{$i} {
+// 	.sponsors-#{$i} {
 // 		background-image: url("../../img/sponsors/logo-#{$i}.svg");
 // 		background-color: nth($colors, $i);
 // 	}
 // }
 
-// .sponsor-1 {
+// .sponsors-1 {
 // 	background-size: 60% auto;
 // }
 
@@ -255,8 +222,4 @@ h3 {
 	background-color: $blue-dark;
 	color: white;
 	height: 5rem;
-
-	/*** PRÁCTICA STEP 1:
-	CENTRAR EN HORIZONTAL Y VERTICAL
-	***/
 }
